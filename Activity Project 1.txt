@@ -11,6 +11,6 @@ From employee;
 2) To find the first and last names of employees whose last name starts with “Jo”.
 
 
-SELECT first_name, last_name
+SELECT concat(first_name, last_name) as name
 From employee
 Where last_name like “Jo%”;
