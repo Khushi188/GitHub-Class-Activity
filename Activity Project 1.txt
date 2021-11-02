@@ -4,7 +4,7 @@
 1)To find the total number of employees in a company:
 
 
-SELECT *(EmployeeNumber)
+SELECT *EmployeeNumber
 From employee;
 
 
@@ -14,3 +14,4 @@ From employee;
 SELECT first_name, last_name
 From employee
 Where last_name like “Jo%”;
+--This looks good--
